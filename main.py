@@ -5,8 +5,9 @@ ssum, indices, average = 0, np.zeros(200), np.zeros(200)
 for i in range(200) : 
   # Add code to setup the numpy arrays called indices and average to generate the desired
   # plot here.
-  
-  
+  indices[i] = i+1
+  ssum = ssum + np.random.uniform(0,1)
+  average[i] = ssum / indices[i]
   
 # This will plot the graph for the data.  You should not need to adjust this.
 plt.plot( indices, average, 'ro' )
