@@ -7,8 +7,6 @@ In this exercise, we want to look at how the value of the sample mean changes as
 
 Remember that the sample mean is defined as:
 
-$$
-\overline{X}=\frac{1}{n}\sum_{i=1}^{n}X_i
-$$
+![](equation.png)
 
 When the code is complete it should generate a graph of the sample mean versus the number of samples they are calculated from.  The red points on this graph are your various estimates of the sample mean.  The black, dashed horizontal line, meanwhile, shows indicate the value of the true expectation for this distribution.  You should see that the sample mean gets progressively closer and closer to this line as the number of samples it is computed from increases.
